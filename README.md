@@ -1,1 +1,1 @@
-# Instagram-Clone-Project
+# Inztagramm-Clone-Project
