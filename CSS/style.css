@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(128, 128, 128, 0.107) !important;
+  height: 100%;
 }
 
 /* .navicons {
@@ -259,8 +260,13 @@ nav {
   position: relative;
   overflow: hidden;
 }
+
 .s2-img {
-  Background: linear-gradient (45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  padding: 3px;
+  background: linear-gradient(45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
 }
 
 .s2-img p {
@@ -272,7 +278,8 @@ nav {
   display: inline;
   margin-left: -1%;
   height: 100%;
-  width: auto;
+  width: 100%;
+  border-radius: 50%;
   Background: linear-gradient (45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
 }
 
@@ -286,4 +293,58 @@ nav {
   position: absolute;
   left: 535px;
   bottom: 1285px;
+}
+
+.CD-left  {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-header-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CD-txt a {
+text-decoration: none;
+color: black;
+font-size: 14px;
+font-weight: 600;
+padding: 10px;
+}
+
+.CD-txt a:hover {
+  color: black;
+}
+
+.CD-icon button {
+  border: none;
+  background: none;
+}
+
+.CF-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji button{
+  border: none;
+  background: none;
+}
+
+.CF-txt {
+  font-size: 13px;
+  color: grey;
+  padding-left: 10px;
+}
+
+.CF-right {
+  font-size: 13px;
+  color: rgba(30, 143, 255, 0.305);
+  font-weight: 600;
 }

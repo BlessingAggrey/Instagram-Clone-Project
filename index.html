@@ -1,320 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/cdf8d5d1b7.js"
-      crossorigin="anonymous"
-    ></script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BlessingAggrey's-Inztagramm-clone</title>
-  </head>
-  <body>
-    <nav>
-      <!-- the main IG logo -->
-      <div class="logo">
+
+<head>
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cdf8d5d1b7.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlessingAggrey's-Inztagramm-clone</title>
+</head>
+
+<body>
+  <nav>
+    <!-- the main IG logo -->
+    <div class="logo">
+      <a href="#">
+        <img class="logo2" src="Images/instagram-text-logo2.png" alt="instagram-logo" />
+      </a>
+    </div>
+    <!-- Nav links -->
+    <div class="navicons">
+      <div class="flexdirection">
         <a href="#">
-          <img
-            class="logo2"
-            src="Images/instagram-text-logo2.png"
-            alt="instagram-logo"
-          />
+          <i class="fa-solid fa-house"> </i>
+          <p>Home</p>
         </a>
       </div>
-      <!-- Nav links -->
-      <div class="navicons">
-        <div class="flexdirection">
+
+      <div class="flexdirection">
+        <a href="#">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p>Search</p>
+        </a>
+      </div>
+
+      <div class="flexdirection">
+        <a href="#">
+          <i class="fa-regular fa-compass"></i>
+          <p>Explore</p>
+        </a>
+      </div>
+
+      <div class="flexdirection">
+        <a href="#">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <p>Messages</p>
+        </a>
+      </div>
+
+      <div class="flexdirection">
+        <a href="#">
+          <i class="fa-regular fa-heart"></i>
+          <p>Notifications</p>
+        </a>
+      </div>
+
+      <div class="flexdirection">
+        <a href="#">
+          <i class="fa-regular fa-square-plus"></i>
+          <p>Create</p>
+        </a>
+      </div>
+
+      <div class="flexdirection">
+        <a href="#">
+          <img src="images/Me.jpg" alt="profile-picture" class="profile-pic" />
+          <p>Profile</p>
+        </a>
+      </div>
+
+      <div class="flexdirection More">
+        <a href="#">
+          <i class="fa-solid fa-bars"></i>
+          <p>More</p>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="sidebar">
+    <div class="sidebar1">
+      <div class="s1-left">
+        <div class="s1-img">
           <a href="#">
-            <i class="fa-solid fa-house"> </i>
-            <p>Home</p>
+            <img src="Images/Me.jpg" alt="My-photo" class="photos" />
           </a>
         </div>
 
-        <div class="flexdirection">
-          <a href="#">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <p>Search</p>
-          </a>
-        </div>
-
-        <div class="flexdirection">
-          <a href="#">
-            <i class="fa-regular fa-compass"></i>
-            <p>Explore</p>
-          </a>
-        </div>
-
-        <div class="flexdirection">
-          <a href="#">
-            <i class="fa-brands fa-facebook-messenger"></i>
-            <p>Messages</p>
-          </a>
-        </div>
-
-        <div class="flexdirection">
-          <a href="#">
-            <i class="fa-regular fa-heart"></i>
-            <p>Notifications</p>
-          </a>
-        </div>
-
-        <div class="flexdirection">
-          <a href="#">
-            <i class="fa-regular fa-square-plus"></i>
-            <p>Create</p>
-          </a>
-        </div>
-
-        <div class="flexdirection">
-          <a href="#">
-            <img
-              src="images/Me.jpg"
-              alt="profile-picture"
-              class="profile-pic"
-            />
-            <p>Profile</p>
-          </a>
-        </div>
-
-        <div class="flexdirection More">
-          <a href="#">
-            <i class="fa-solid fa-bars"></i>
-            <p>More</p>
-          </a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="sidebar">
-      <div class="sidebar1">
-        <div class="s1-left">
-          <div class="s1-img">
-            <a href="#">
-              <img src="Images/Me.jpg" alt="My-photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s1-txt">
-            <p>
-              <a href="#"> denwigweblessing </a>
-              <br />
-              DeNwigwe-Aggrey Blessing .C.
-            </p>
-          </div>
-        </div>
-
-        <div class="s1-btn">
-          <button>Switch</button>
+        <div class="s1-txt">
+          <p>
+            <a href="#"> denwigweblessing </a>
+            <br />
+            DeNwigwe-Aggrey Blessing .C.
+          </p>
         </div>
       </div>
 
-      <div class="sidebar2">
-        <div class="s2-txt">
-          <p>Suggestions For You</p>
-        </div>
-
-        <div class="s2-link">
-          <a href="#">
-            <p>See All</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="sidebar3">
-        <div class="s-left">
-          <div class="s-img">
-            <a href="#">
-              <img src="Images/Me.jpg" alt="photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s-txt">
-            <p>
-              <a href="#"> Ebukagift </a>
-              <br />
-              Follows you
-            </p>
-          </div>
-        </div>
-
-        <div class="s-btn">
-          <button>Follow</button>
-        </div>
-      </div>
-
-      <div class="sidebar4">
-        <div class="s-left">
-          <div class="s-img">
-            <a href="#">
-              <img src="Images/Milli.jpg" alt="photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s-txt">
-            <p>
-              <a href="#"> jesusdaughter </a>
-              <br />
-              Followed by achilles + 9 more
-            </p>
-          </div>
-        </div>
-
-        <div class="s-btn">
-          <button>Follow</button>
-        </div>
-      </div>
-
-      <div class="sidebar5">
-        <div class="s-left">
-          <div class="s-img">
-            <a href="#">
-              <img src="Images/Achukos.jpg" alt="photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s-txt">
-            <p>
-              <a href="#"> prettybianca </a>
-              <br />
-              Followed by mma + 2 more
-            </p>
-          </div>
-        </div>
-
-        <div class="s-btn">
-          <button>Follow</button>
-        </div>
-      </div>
-
-      <div class="sidebar6">
-        <div class="s-left">
-          <div class="s-img">
-            <a href="#">
-              <img src="Images/Muski.jpg" alt="photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s-txt">
-            <p>
-              <a href="#"> denwigwemuski </a>
-              <br />
-              New to Instagram
-            </p>
-          </div>
-        </div>
-
-        <div class="s-btn">
-          <button>Follow</button>
-        </div>
-      </div>
-
-      <div class="sidebar7">
-        <div class="s-left">
-          <div class="s-img">
-            <a href="#">
-              <img src="Images/David.jpg" alt="photo" class="photos" />
-            </a>
-          </div>
-
-          <div class="s-txt">
-            <p>
-              <a href="#"> mma </a>
-              <br />
-              Follows you
-            </p>
-          </div>
-        </div>
-
-        <div class="s-btn">
-          <button>Follow</button>
-        </div>
-      </div>
-
-      <div class="sidebar8">
-        <p>
-          <a href="#">About</a>. <a href="#">Help</a>. <a href="#">Press</a>. <a
-            href="#"
-            >API</a
-          >. <a href="#">Jobs</a>. <a href="#">Privacy</a>. <a href="#">Terms</a
-          >. <a href="#">Locations</a>. <br />
-          <button>Language</button>
-        </p>
-      </div>
-
-      <div class="sidebar9">
-        <p>© 2022 INSTAGRAM FROM META</p>
+      <div class="s1-btn">
+        <button>Switch</button>
       </div>
     </div>
 
-    <div class="main">
-      <div class="card" style="height: 110px; width: 420px;">
-        <div class="card-body">
-         <div class="card-bodyImg">
+    <div class="sidebar2">
+      <div class="s2-txt">
+        <p>Suggestions For You</p>
+      </div>
+
+      <div class="s2-link">
+        <a href="#">
+          <p>See All</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar3">
+      <div class="s-left">
+        <div class="s-img">
+          <a href="#">
+            <img src="Images/Me.jpg" alt="photo" class="photos" />
+          </a>
+        </div>
+
+        <div class="s-txt">
+          <p>
+            <a href="#"> Ebukagift </a>
+            <br />
+            Follows you
+          </p>
+        </div>
+      </div>
+
+      <div class="s-btn">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="sidebar4">
+      <div class="s-left">
+        <div class="s-img">
+          <a href="#">
+            <img src="Images/Milli.jpg" alt="photo" class="photos" />
+          </a>
+        </div>
+
+        <div class="s-txt">
+          <p>
+            <a href="#"> jesusdaughter </a>
+            <br />
+            Followed by achilles + 9 more
+          </p>
+        </div>
+      </div>
+
+      <div class="s-btn">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="sidebar5">
+      <div class="s-left">
+        <div class="s-img">
+          <a href="#">
+            <img src="Images/Achukos.jpg" alt="photo" class="photos" />
+          </a>
+        </div>
+
+        <div class="s-txt">
+          <p>
+            <a href="#"> prettybianca </a>
+            <br />
+            Followed by mma + 2 more
+          </p>
+        </div>
+      </div>
+
+      <div class="s-btn">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="sidebar6">
+      <div class="s-left">
+        <div class="s-img">
+          <a href="#">
+            <img src="Images/Muski.jpg" alt="photo" class="photos" />
+          </a>
+        </div>
+
+        <div class="s-txt">
+          <p>
+            <a href="#"> denwigwemuski </a>
+            <br />
+            New to Instagram
+          </p>
+        </div>
+      </div>
+
+      <div class="s-btn">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="sidebar7">
+      <div class="s-left">
+        <div class="s-img">
+          <a href="#">
+            <img src="Images/David.jpg" alt="photo" class="photos" />
+          </a>
+        </div>
+
+        <div class="s-txt">
+          <p>
+            <a href="#"> mma </a>
+            <br />
+            Follows you
+          </p>
+        </div>
+      </div>
+
+      <div class="s-btn">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="sidebar8">
+      <p>
+        <a href="#">About</a>. <a href="#">Help</a>. <a href="#">Press</a>.
+        <a href="#">API</a>. <a href="#">Jobs</a>. <a href="#">Privacy</a>.
+        <a href="#">Terms</a>. <a href="#">Locations</a>. <br />
+        <button>Language</button>
+      </p>
+    </div>
+
+    <div class="sidebar9">
+      <p>© 2022 INSTAGRAM FROM META</p>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="card" style="height: 110px; width: 420px">
+      <div class="card-body">
+        <div class="card-bodyImg">
           <div class="s2-img">
-            <img class="s-photos" src="Images/Me.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/Me.jpg" alt="My-photo" />
             <p>muski</p>
           </div>
 
           <div class="s2-img">
-            <img class="s-photos" src="Images/Milli.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/Milli.jpg" alt="My-photo" />
             <p>babygirl</p>
           </div>
 
           <div class="s2-img">
-            <img class="s-photos" src="Images/Achukos.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/Achukos.jpg" alt="My-photo" />
             <p>supreme</p>
           </div>
 
           <div class="s2-img">
-            <img class="s-photos" src="Images/Muski.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/Muski.jpg" alt="My-photo" />
             <p>ife_lulu</p>
           </div>
 
           <div class="s2-img">
-            <img class="s-photos" src="Images/David.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/David.jpg" alt="My-photo" />
             <p>esth-er</p>
           </div>
 
           <div class="s2-img">
-            <img class="s-photos" src="Images/Me.jpg" alt="My-photo" >
+            <img class="s-photos" src="Images/Me.jpg" alt="My-photo" />
             <p>mma</p>
-          </div>
-         </div>
-        </div>
-      </div>
-
-      <div class="feeds">
-        <div class="card" style="width: 420px;">
-          <div class="card-header">
-            Featured
-          </div>
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <div class="card-footer">
-            Featured
           </div>
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="feeds">
+      <div class="card-section" style="margin-top: 20px;">
+        <div class="card" style="width: 420px; height: 550px;">
+          <div class="card-header">
+            <div class="card-header-header">
+              <div class="CD-left">
+                <div class="s-img">
+                  <a href="#">
+                    <img src="Images/me.jpg" alt="photo" class="photos" />
+                  </a>
+                </div>
+
+                <div class="CD-txt">
+                  <a href="#">denwigweblessing</a>
+                </div>
+              </div>
+
+              <div class="CD-icon">
+                <button>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <img src="Images/Me.jpg" class="card-img-top" alt="My-photo" />
+          <div class="card-body">
+            <p class="card-text">
+
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="CF-left">
+              <div class="emoji">
+                <button><i class="fa-regular fa-face-smile"></i></button>
+              </div>
+
+              <div class="CF-txt">
+                Add a comment...
+              </div>
+            </div>
+
+            <div class="CF-right">
+              Post
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-section" style="margin-top: 240px;">
+        <div class="card" style="width: 420px; height: 550px ">
+          <div class="card-header">
+            <div class="card-header-header">
+              <div class="CD-left">
+                <div class="s-img">
+                  <a href="#">
+                    <img src="Images/img12.jpg" alt="photo" class="photos" />
+                  </a>
+                </div>
+
+                <div class="CD-txt">
+                  <a href="#">oluchi</a>
+                </div>
+              </div>
+
+              <div class="CD-icon">
+                <button>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <img src="Images/img12.jpg" class="card-img-top" alt="photo" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="CF-left">
+              <div class="emoji">
+                <button><i class="fa-regular fa-face-smile"></i></button>
+              </div>
+
+              <div class="CF-txt">
+                Add a comment...
+              </div>
+            </div>
+
+            <div class="CF-right">
+              Post
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-section" style="margin-top: 60px;">
+        <div class="card" style="width: 420px" ; height: 550px;>
+          <div class="card-header">
+            <div class="card-header-header">
+              <div class="CD-left">
+                <div class="s-img">
+                  <a href="#">
+                    <img src="Images/img13.jpeg" alt="photo" class="photos" />
+                  </a>
+                </div>
+
+                <div class="CD-txt">
+                  <a href="#">oluchi</a>
+                </div>
+              </div>
+
+              <div class="CD-icon">
+                <button>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <img src="Images/img13.jpeg" class="card-img-top" alt="photo" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="CF-left">
+              <div class="emoji">
+                <button><i class="fa-regular fa-face-smile"></i></button>
+              </div>
+
+              <div class="CF-txt">
+                Add a comment...
+              </div>
+            </div>
+
+            <div class="CF-right">
+              Post
+            </div>
+          </div>
+        </div>
+
+        <div class="card-section" style="margin-top: 20px;">
+          <div class="card" style="width: 420px; height: 550px;">
+            <div class="card-header">
+              <div class="card-header-header">
+                <div class="CD-left">
+                  <div class="s-img">
+                    <a href="#">
+                      <img src="Images/img14.png" alt="photo" class="photos" />
+                    </a>
+                  </div>
+  
+                  <div class="CD-txt">
+                    <a href="#">
+                      baby_toks
+                    </a>
+                  </div>
+                </div>
+  
+                <div class="CD-icon">
+                  <button>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <img src="Images/img14.png" class="card-img-top" alt="photo" />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="CF-left">
+                <div class="emoji">
+                  <button><i class="fa-regular fa-face-smile"></i></button>
+                </div>
+  
+                <div class="CF-txt">
+                  Add a comment...
+                </div>
+              </div>
+  
+              <div class="CF-right">
+                Post
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
 </html>
