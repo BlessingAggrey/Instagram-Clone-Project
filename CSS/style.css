@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(128, 128, 128, 0.107) !important;
+}
+
+/* .navicons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} */
+
+nav {
+  /* padding: 10px; */
+  padding-left: 25px;
+  border-right: 3px solid white;
+  background-color: white;
+  width: 19%;
+  height: 200vh;
+}
+
+.flexdirection > a {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 40px;
+  font-size: 18px;
+  padding: 10px, 0px;
+}
+
+.flexdirection a:hover{
+  color: black;
+}
+
+.logo img {
+  height: 39px;
+  width: 110px;
+  margin: 30px 0px;
+  margin-bottom: 50px;
+}
+
+.flexdirection img {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile-pic {
+  display: inline;
+  margin-left: -1%;
+  height: 100%;
+  width: auto;
+}
+
+.More {
+  margin-top: 60px;
+}
+
+.s1-img img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photos {
+  display: inline;
+  margin-left: -1%;
+  height: 100%;
+  width: auto;
+}
+
+.s-img img {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photos {
+  display: inline;
+  margin-left: -1%;
+  height: 100%;
+  width: auto;
+}
+
+.sidebar1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+  justify-content: space-between;
+}
+
+.sidebar3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidebar {
+  position: absolute;
+  right: 90px;
+  top: 50px;
+}
+
+.s1-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.s1-txt {
+  padding-left: 15px;
+}
+
+.s1-txt a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.s1-txt a:hover {
+  color: black;
+}
+
+.s1-txt p {
+  font-size: 14px;
+  color: grey;
+}
+
+.s1-btn button {
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  color: dodgerblue;
+}
+
+.s2-txt {
+  font-size: 14px;
+  color: grey;
+  font-weight: 600;
+}
+
+.s2-link {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.s2-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.s-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.s-btn button {
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  color: dodgerblue;
+}
+
+.s-txt {
+  padding-left: 15px;
+}
+
+.s-txt a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.s-txt a:hover {
+  color: black;
+}
+
+.s-txt p {
+  font-size: 11px;
+  color: grey;
+}
+
+.sidebar8 a {
+  color: rgba(128, 128, 128, 0.385);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.sidebar8 a:hover {
+  text-decoration: underline;
+  color: rgba(128, 128, 128, 0.385);
+}
+
+.sidebar8 button {
+  border: none;
+  background: none;
+  color: rgba(128, 128, 128, 0.385);
+  font-size: 12px;
+}
+
+.sidebar8 {
+  color: rgba(128, 128, 128, 0.385);
+}
+
+.sidebar9 {
+  font-size: 11px;
+  color: rgba(128, 128, 128, 0.385);
+}
