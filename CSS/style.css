@@ -251,3 +251,39 @@ nav {
   font-size: 11px;
   color: rgba(128, 128, 128, 0.385);
 }
+
+.s2-img img{
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  position: relative;
+  overflow: hidden;
+}
+.s2-img {
+  Background: linear-gradient (45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+
+.s2-img p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.s-photos {
+  display: inline;
+  margin-left: -1%;
+  height: 100%;
+  width: auto;
+  Background: linear-gradient (45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+
+.card-bodyImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  position: absolute;
+  left: 535px;
+  bottom: 1285px;
+}
