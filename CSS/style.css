@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+html,body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: rgba(128, 128, 128, 0.107) !important;
   padding-top: 1300px;
+  position: sticky;
 }
 
 /* .navicons {
@@ -140,7 +148,7 @@ nav {
 
 .sidebar {
   position: absolute;
-  right: 150px;
+  right: 180px;
   top: 50px;
   max-height: 100%;
 }
