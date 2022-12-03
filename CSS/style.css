@@ -22,7 +22,7 @@ nav {
   background-color: white;
   width: 19%;
   height: 100%;
-  position:fixed; 
+  position: fixed;
   top: 0px;
   overflow: auto;
 }
@@ -38,7 +38,7 @@ nav {
   padding: 10px, 0px;
 }
 
-.flexdirection a:hover{
+.flexdirection a:hover {
   color: black;
 }
 
@@ -54,7 +54,6 @@ nav {
   height: 20px;
   width: 20px;
   position: relative;
-  overflow: hidden;
 }
 
 .profile-pic {
@@ -73,7 +72,6 @@ nav {
   height: 50px;
   width: 50px;
   position: relative;
-  overflow: hidden;
 }
 
 .photos {
@@ -88,7 +86,6 @@ nav {
   height: 35px;
   width: 35px;
   position: relative;
-  overflow: hidden;
 }
 
 .photos {
@@ -143,8 +140,9 @@ nav {
 
 .sidebar {
   position: absolute;
-  right: 90px;
+  right: 150px;
   top: 50px;
+  max-height: 100%;
 }
 
 .s1-left {
@@ -256,12 +254,11 @@ nav {
   color: rgba(128, 128, 128, 0.385);
 }
 
-.s2-img img{
+.s2-img img {
   border-radius: 50%;
   height: 55px;
   width: 55px;
   position: relative;
-  overflow: hidden;
 }
 
 .s2-img {
@@ -283,7 +280,10 @@ nav {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  Background: linear-gradient (45deg, rgb(255, 230, 0), rgb(255, 0, 128) 80%);
+}
+
+.main {
+  max-height: 100%;
 }
 
 .card-bodyImg {
@@ -294,11 +294,11 @@ nav {
 
 .card {
   position: absolute;
-  left: 535px;
+  left: 470px;
   bottom: 1285px;
 }
 
-.CD-left  {
+.CD-left {
   display: flex;
   flex-direction: row;
 }
@@ -309,11 +309,11 @@ nav {
 }
 
 .CD-txt a {
-text-decoration: none;
-color: black;
-font-size: 14px;
-font-weight: 600;
-padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .CD-txt a:hover {
@@ -335,7 +335,7 @@ padding: 10px;
   justify-content: space-between;
 }
 
-.emoji button{
+.emoji button {
   border: none;
   background: none;
 }
@@ -344,10 +344,52 @@ padding: 10px;
   font-size: 13px;
   color: grey;
   padding-left: 10px;
+  ba
 }
 
 .CF-right {
   font-size: 13px;
   color: rgba(30, 143, 255, 0.305);
   font-weight: 600;
+}
+
+.CD-interact-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.CD-interact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CDI-left2 {
+  padding-left: 15px;
+}
+
+.CDI-left3 {
+  padding-left: 15px;
+}
+
+.likes {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.caption {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.comments {
+  font-size: 12px;
+  color: grey;
+  padding-bottom: 5px;
+}
+.time {
+  font-size: 12px;
+  color: grey;
 }
